@@ -1,0 +1,29 @@
+
+.box {
+  color: white;
+  font-size: 61px;
+  text-align: center;
+  padding: 10px;
+  text-shadow:  1px 1px 2px white, 0 0 1em gold, 0 0 0.2em white;;
+}
+
+
+.box1{background-color: #ec1a48;}
+.box2{background-color: #ca92bf;}
+.box3{background-color: #45d3c3;}
+.box4{background-color: #ef7890;}
+.box5{background-color: #d9da0f;}
+.box6{background-color: #2b14e9;}
+.box7{background-color: #34212f;}
+.box8{background-color: #c3d5bc;}
+.box9{background-color: #7023dd;}
+.box10{background-color: #e6d749;}
+.box11{background-color: #154f2f;}
+.box12{background-color: #8a0beb;}
+
+/* flexbox */
+
+.container {
+  display: inline-flex;
+  border: 10px solid gold;
+}
