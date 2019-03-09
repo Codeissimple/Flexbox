@@ -1,12 +1,16 @@
 
 .box {
   color: white;
-  font-size: 61px;
+  font-size: 25px;
+  font-weight: bold;
+  font-type: Verdana;
   text-align: center;
-  padding: 10px;
-  text-shadow:  1px 1px 2px white, 0 0 1em gold, 0 0 0.2em white;;
+  padding: 20px;
+  text-shadow:  1px 1px 2px white, 0 0 1em gold, 0 0 0.2em white;
+  margin: 2px;
+  height: 30px;
+  width: 30px;
 }
-
 
 
 .box1{background-color: #ec1a48;}
@@ -27,4 +31,13 @@
 .container {
   display: inline-flex;
   border: 10px solid gold;
+  flex-wrap: wrap;
 }
+
+#flex-example_2  {
+  display: inline-flex;
+  border: 10px solid black;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+
